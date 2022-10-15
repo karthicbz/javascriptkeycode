@@ -3,7 +3,7 @@ window.addEventListener('keydown', (e)=>{
     const keycode = document.querySelector(".keycode");
     const keyName = document.querySelector(".keyboardMock")
     console.log(e);
-    keycode.setAttribute('style', 'font-size:104px;');
+    keycode.setAttribute('style', 'font-size:250px;');
     keycode.textContent = e.keyCode;
     keyName.classList.add("keyboardAdded");
     // keyName.textContent = ()=>{

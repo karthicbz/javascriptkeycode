@@ -1,4 +1,5 @@
 window.addEventListener('keydown', (e)=>{
+    e.preventDefault();
     const keycode = document.querySelector(".keycode");
     const keyName = document.querySelector(".keyboardMock")
     console.log(e);
